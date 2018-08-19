@@ -12,10 +12,10 @@ import org.openqa.selenium.interactions.Actions;
 
 public class Common {
 
-	public String buildLink = "www.appdirect.com/home";
-	WebDriver driver = new ChromeDriver();
+	public String buildLink = "https://marketplace.appdirect.com/home";
+	WebDriver driver;
 
-	public void initTest() throws IOException  {
+	public void initTest() throws IOException {
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
@@ -40,15 +40,13 @@ public class Common {
 		actions.moveToElement(element);
 		actions.perform();
 	}
-	
-	public void wait(int TimeOut){
-        driver.manage().timeouts().implicitlyWait(TimeOut, TimeUnit.SECONDS);
+
+	public void wait(int TimeOut) {
+		driver.manage().timeouts().implicitlyWait(TimeOut, TimeUnit.SECONDS);
 	}
-	
-	public void log(String message){
-        System.out.println(message);
-    }
-	
-	
+
+	public void log(String message) {
+		System.out.println(message);
+	}
 
 }

@@ -1,21 +1,225 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24" started-at="2018-08-18T05:11:41Z" finished-at="2018-08-18T05:11:41Z">
+  <suite name="Default suite" duration-ms="68369" started-at="2018-08-19T06:33:13Z" finished-at="2018-08-19T06:34:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24" started-at="2018-08-18T05:11:41Z" finished-at="2018-08-18T05:11:41Z">
-      <class name="demo.appDirect.testHome">
-        <test-method status="PASS" signature="testSearch()[pri:0, instance:demo.appDirect.testHome@2a5ca609]" name="testSearch" duration-ms="9" started-at="2018-08-18T01:11:41Z" finished-at="2018-08-18T01:11:41Z">
+    <test name="Default test" duration-ms="68369" started-at="2018-08-19T06:33:13Z" finished-at="2018-08-19T06:34:21Z">
+      <class name="demo.appDirect.TestHome">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo.appDirect.TestHome@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="4754" started-at="2018-08-19T02:33:13Z" finished-at="2018-08-19T02:33:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearch -->
-        <test-method status="PASS" signature="testSearch2()[pri:0, instance:demo.appDirect.testHome@2a5ca609]" name="testSearch2" duration-ms="0" started-at="2018-08-18T01:11:41Z" finished-at="2018-08-18T01:11:41Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchResultsAreDisplayed(int, java.lang.String)[pri:1, instance:demo.appDirect.TestHome@4b9e13df]" name="testSearchResultsAreDisplayed" duration-ms="2687" started-at="2018-08-19T02:33:18Z" data-provider="getSearchKeyWordInputs" finished-at="2018-08-19T02:33:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GoDaddy]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearch2 -->
-      </class> <!-- demo.appDirect.testHome -->
+        </test-method> <!-- testSearchResultsAreDisplayed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:demo.appDirect.TestHome@4b9e13df]" name="afterMethod" is-config="true" duration-ms="1125" started-at="2018-08-19T02:33:20Z" finished-at="2018-08-19T02:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo.appDirect.TestHome@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="4850" started-at="2018-08-19T02:33:22Z" finished-at="2018-08-19T02:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchResultsAreDisplayed(int, java.lang.String)[pri:1, instance:demo.appDirect.TestHome@4b9e13df]" name="testSearchResultsAreDisplayed" duration-ms="2880" started-at="2018-08-19T02:33:26Z" data-provider="getSearchKeyWordInputs" finished-at="2018-08-19T02:33:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[godaddy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchResultsAreDisplayed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:demo.appDirect.TestHome@4b9e13df]" name="afterMethod" is-config="true" duration-ms="1089" started-at="2018-08-19T02:33:29Z" finished-at="2018-08-19T02:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo.appDirect.TestHome@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="4482" started-at="2018-08-19T02:33:30Z" finished-at="2018-08-19T02:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchResultsAreDisplayed(int, java.lang.String)[pri:1, instance:demo.appDirect.TestHome@4b9e13df]" name="testSearchResultsAreDisplayed" duration-ms="2969" started-at="2018-08-19T02:33:35Z" data-provider="getSearchKeyWordInputs" finished-at="2018-08-19T02:33:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GODADDY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchResultsAreDisplayed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:demo.appDirect.TestHome@4b9e13df]" name="afterMethod" is-config="true" duration-ms="1110" started-at="2018-08-19T02:33:38Z" finished-at="2018-08-19T02:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo.appDirect.TestHome@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="4606" started-at="2018-08-19T02:33:39Z" finished-at="2018-08-19T02:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchResultsAreDisplayed(int, java.lang.String)[pri:1, instance:demo.appDirect.TestHome@4b9e13df]" name="testSearchResultsAreDisplayed" duration-ms="2913" started-at="2018-08-19T02:33:44Z" data-provider="getSearchKeyWordInputs" finished-at="2018-08-19T02:33:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GodAdDy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchResultsAreDisplayed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:demo.appDirect.TestHome@4b9e13df]" name="afterMethod" is-config="true" duration-ms="1097" started-at="2018-08-19T02:33:47Z" finished-at="2018-08-19T02:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo.appDirect.TestHome@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="5012" started-at="2018-08-19T02:33:48Z" finished-at="2018-08-19T02:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchResultsNotDisplayed(int, java.lang.String, java.lang.String)[pri:2, instance:demo.appDirect.TestHome@4b9e13df]" name="testSearchResultsNotDisplayed" duration-ms="2413" started-at="2018-08-19T02:33:53Z" data-provider="getSearchRandomInputs" finished-at="2018-08-19T02:33:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[random]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GoDaddy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchResultsNotDisplayed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:demo.appDirect.TestHome@4b9e13df]" name="afterMethod" is-config="true" duration-ms="1131" started-at="2018-08-19T02:33:55Z" finished-at="2018-08-19T02:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo.appDirect.TestHome@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="5755" started-at="2018-08-19T02:33:56Z" finished-at="2018-08-19T02:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchResultsNotDisplayed(int, java.lang.String, java.lang.String)[pri:2, instance:demo.appDirect.TestHome@4b9e13df]" name="testSearchResultsNotDisplayed" duration-ms="1679" started-at="2018-08-19T02:34:02Z" data-provider="getSearchRandomInputs" finished-at="2018-08-19T02:34:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GO DADDY]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GoDaddy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchResultsNotDisplayed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:demo.appDirect.TestHome@4b9e13df]" name="afterMethod" is-config="true" duration-ms="1106" started-at="2018-08-19T02:34:04Z" finished-at="2018-08-19T02:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo.appDirect.TestHome@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="4543" started-at="2018-08-19T02:34:05Z" finished-at="2018-08-19T02:34:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchResultsNotDisplayed(int, java.lang.String, java.lang.String)[pri:2, instance:demo.appDirect.TestHome@4b9e13df]" name="testSearchResultsNotDisplayed" duration-ms="2484" started-at="2018-08-19T02:34:09Z" data-provider="getSearchRandomInputs" finished-at="2018-08-19T02:34:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GODADDYS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GoDaddy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchResultsNotDisplayed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:demo.appDirect.TestHome@4b9e13df]" name="afterMethod" is-config="true" duration-ms="1114" started-at="2018-08-19T02:34:12Z" finished-at="2018-08-19T02:34:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo.appDirect.TestHome@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="4700" started-at="2018-08-19T02:34:13Z" finished-at="2018-08-19T02:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchResultsNotDisplayed(int, java.lang.String, java.lang.String)[pri:2, instance:demo.appDirect.TestHome@4b9e13df]" name="testSearchResultsNotDisplayed" duration-ms="2687" started-at="2018-08-19T02:34:18Z" data-provider="getSearchRandomInputs" finished-at="2018-08-19T02:34:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[daddy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GoDaddy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchResultsNotDisplayed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:demo.appDirect.TestHome@4b9e13df]" name="afterMethod" is-config="true" duration-ms="1158" started-at="2018-08-19T02:34:20Z" finished-at="2018-08-19T02:34:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- demo.appDirect.TestHome -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
