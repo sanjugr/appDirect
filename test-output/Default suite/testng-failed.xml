@@ -5,9 +5,7 @@
     <classes>
       <class name="demo.appDirect.TestHome">
         <methods>
-          <include name="testSearchResultsAreDisplayed" invocation-numbers="1 2 3"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
+          <include name="testSearchResultsAreDisplayed"/>
         </methods>
       </class> <!-- demo.appDirect.TestHome -->
     </classes>

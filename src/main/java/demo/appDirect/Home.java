@@ -33,4 +33,9 @@ public class Home extends Common {
 		String resultTitle = rowCount.get(rowIndex).getText();
 		return resultTitle;
 	}
+	
+	public int getTotalNumberOfSearchResults() {
+		int noOfResults =driver.findElements(By.cssSelector(searchResultsLists)).size();
+		return noOfResults;
+	}
 }
